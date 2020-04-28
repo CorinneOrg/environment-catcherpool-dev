@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:catcherpool/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:catcherpool/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:catcherpool/prow:hmacToken
+segmentWriteKey: vault:catcherpool:segmentWriteKey
